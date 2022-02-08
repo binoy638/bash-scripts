@@ -33,8 +33,8 @@ printInfo cloning openvpn-install repo
 
 sudo git clone https://github.com/Nyr/openvpn-install.git && printSuccess cloned openvpn-install repo successfully || printError failed to clone openvpn-install repo
 
-chmod +x openvpn-install.sh && printSuccess chmod +x openvpn-install.sh successfully || printError failed to chmod +x openvpn-install.sh
+chmod +x ./openvpn-install/openvpn-install.sh && printSuccess chmod +x openvpn-install.sh successfully || printError failed to chmod +x openvpn-install.sh
 
 printInfo Starting openvpn-install
 
-sudo ./openvpn-install.sh
+sudo ./openvpn-install/openvpn-install.sh
