@@ -31,7 +31,7 @@ sudo apt update && printSuccess downloaded packages successfully && (sudo apt up
 
 printInfo cloning openvpn-install repo
 
-sudo git clone https://github.com/Nyr/openvpn-install.git && printSuccess cloned openvpn-install repo successfully || printError failed to clone openvpn-install repo
+sudo git clone https://github.com/angristan/openvpn-install.git && printSuccess cloned openvpn-install repo successfully || printError failed to clone openvpn-install repo
 
 chmod +x ./openvpn-install/openvpn-install.sh && printSuccess chmod +x openvpn-install.sh successfully || printError failed to chmod +x openvpn-install.sh
 
